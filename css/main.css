@@ -1,0 +1,13 @@
+div.container {
+  margin: auto;
+  font: Georgia 1.2em;
+  width: 700px; }
+
+table {
+  border: 1px solid #5c86de; }
+  table tr:nth-child(odd) {
+    background: #5b2896; }
+  table td:first-child {
+    width: 150px; }
+  table th {
+    background-color: #fa0000; }

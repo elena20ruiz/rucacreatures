@@ -1,0 +1,26 @@
+$myfont: Georgia 1.2em;
+$table_head_col: rgb(250, 0, 0);
+$table_row_col: rgb(91, 40, 150);
+$table_bor_col: rgb(92, 134, 222);
+$container_width: 700px;
+$first_col_width: 150px;
+
+div.container {
+
+    margin: auto; 
+    font: $myfont;
+    width: $container_width;
+}
+
+table {
+
+    tr:nth-child(odd) {background: $table_row_col}
+
+    td:first-child {width: $first_col_width}
+  
+    th {
+        background-color: $table_head_col;
+    }
+
+    border: 1px solid $table_bor_col;
+}
